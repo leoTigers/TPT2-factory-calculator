@@ -33,14 +33,17 @@ class Item{
         this.count = count;
         this.depth = depth;
         this.componentList = [];
+        /*this.end_components = {}
+        let ec = this.calc_components();
+        for(let i = 0; i < ec.length;i++){
+            let sname = ec[i].name+" T"+ec[i].tier;
+            this.end_components[sname] = get(this.end_components, sname, 0) + ec[i].count;
+        }*/
         this.calc_components();
-        //if(depth===0)
-        //    this.repr();
-        //console.log(this);
     };
     calc_components(){
         if(this.tier===0)
-            return;
+            return [];
         if(!recipes[this.tier][this.name]){ //
             /*if(!crafts[this.name]) {
                 return;
@@ -80,6 +83,17 @@ class Inventory{
 
 let inventory = new Inventory();
 
+function end_comp_sum(dict, item){
+    let sname = item.name+"@T"+item.tier;
+    if(item.componentList.length === 0){
+        dict[sname] = get(dict, sname, 0) + item.count;
+    }else{
+        for(let i = 0 ; i < item.componentList.length ; i++){
+            end_comp_sum(dict, item.componentList[i]);
+        }
+    }
+}
+
 function calc_price(){
     console.log("aneurysm incoming")
     let tier_select = document.getElementById("tier");
@@ -93,16 +107,20 @@ function calc_price(){
 
 
     let total_cost = {};
-    let inventory = {};
+    end_comp_sum(total_cost, obj);
+    console.log(total_cost);
 
 
-    /*let table = document.getElementById("results");
+    let div = document.getElementById("results");
+    div.innerHTML = obj.repr().replaceAll("\n", "<br/>");
+
+    let table = document.getElementById("summary");
     table.innerHTML = "<tr>\n" +
         "    <th>Item</th>\n" +
         "    <th>Tier</th>\n" +
         "    <th>Amount</th>\n" +
         "  </tr>";
-    let keys = Object.keys(total_cost)
+    let keys = Object.keys(total_cost);
     let rows = keys.length;
     for(let i=0;i<rows;i++){
         let tr = document.createElement("tr");
@@ -118,8 +136,7 @@ function calc_price(){
         tr.appendChild(td2);
         tr.appendChild(td3);
         table.appendChild(tr);
-    }*/
-    let div = document.getElementById("results");
-    div.innerHTML = obj.repr().replaceAll("\n", "<br/>");
+    }
+
     console.log(total_cost);
 }
