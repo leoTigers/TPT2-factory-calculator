@@ -276,9 +276,6 @@ let recipes = {
         "count":2
       }
     ]
-  },
-  "2": {
-
   }
 }
 let parts = {
