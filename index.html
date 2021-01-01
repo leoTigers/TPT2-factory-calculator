@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="recipes.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+</head>
+<body>
+<div>
+    <label for="tier">Tier</label>
+
+    <select id="tier" name="tier" required>
+        <option value="">Select a tier</option>
+    </select>
+
+</div>
+<div>
+    <label for="machine">Machine</label>
+    <select id="machine" name="machine" required>
+        <option value="">Select a machine</option>
+    </select>
+</div>
+<button onclick="calc_price()">Calculate</button>
+<div id="results">
+
+</div>
+</body>
+</html>
