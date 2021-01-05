@@ -33,17 +33,24 @@ class Item{
         this.count = count;
         this.depth = depth;
         this.componentList = [];
-        /*this.end_components = {}
-        let ec = this.calc_components();
-        for(let i = 0; i < ec.length;i++){
-            let sname = ec[i].name+" T"+ec[i].tier;
-            this.end_components[sname] = get(this.end_components, sname, 0) + ec[i].count;
-        }*/
+        this.owned = 0;
+
         this.calc_components();
     };
+    equals(other){
+        return this.tier === other.tier &&
+            this.name === other.name;
+    }
     calc_components(){
         if(this.tier===0)
             return [];
+        if(inventory.contains(this)){
+            let m = Math.min(inventory.count(this), this.count);
+            inventory.remove(this, m);
+            this.owned = m;
+            if(this.count - m === 0)
+                return [];
+        }
         if(!recipes[this.tier][this.name]){ //
             /*if(!crafts[this.name]) {
                 return;
@@ -66,12 +73,16 @@ class Item{
     repr(){
         //if(this.componentList.length === 0)
         //    return;
-        let s = "--".repeat(this.depth) + " "+this.count + " "+ this.name+" T"+this.tier+"\n";
+        let s = "--".repeat(this.depth) + " "+this.count + " "+ this.name+" T"
+            +this.tier+(this.owned>0?("    ("+this.owned+"from inventory)"):"")+"\n";
         //console.log(s)
         for(let i = 0 ; i < this.componentList.length ; i++) {
             s+=this.componentList[i].repr();
         }
         return s
+    }
+    toString(){
+        return this.name + " T" +this.tier;
     }
 }
 
@@ -79,12 +90,60 @@ class Inventory{
     constructor() {
         this.items = [];
     }
+    add(item, count= 1){
+        item.count *= count;
+        // try too find the item in the inventory and adds
+        // to the count if found
+        for(let i=0;i<this.items.length;i++){
+            if(this.items[i].equals(item)){
+                this.items[i].count += item.count;
+                return;
+            }
+        }
+        // if not found, just add item to the list
+        this.items.push(item);
+    }
+    remove(item, count){
+        // try too find the item in the inventory and removes
+        // to the count if found
+        // if count drops to 0, remove the item from inventory
+        for(let i=0;i<this.items.length;i++){
+            if(this.items[i].equals(item)){
+                this.items[i].count = Math.max(this.items[i].count - count, 0);
+                if(this.items[i].count === 0){
+                    this.items.splice(i, 1);
+                }
+                return;
+            }
+        }
+        console.exception("Item" + item.toString() + "not in Inventory, can't remove it");
+    }
+    contains(item) {
+        let b = false;
+        for (let i = 0; i < this.items.length; i++) {
+            if (this.items[i].equals(item)) {
+                b = true;
+            }
+        }
+        return b;
+    }
+    count(item) {
+        for (let i = 0; i < this.items.length; i++) {
+            if (this.items[i].equals(item)) {
+                return this.items[i].count;
+            }
+        }
+        return 0;
+    }
 }
 
 let inventory = new Inventory();
+inventory.add(new Item("Belt", 9))
+inventory.add(new Item("Chip", 4, 10));
 
 function end_comp_sum(dict, item){
     let sname = item.name+"@T"+item.tier;
+    //if(inventory.contains(item))
     if(item.componentList.length === 0){
         dict[sname] = get(dict, sname, 0) + item.count;
     }else{
