@@ -143,8 +143,8 @@ class Inventory{
 }
 
 let inventory = new Inventory();
-inventory.add(new Item("Belt", 9))
-inventory.add(new Item("Chip", 4, 10));
+//inventory.add(new Item("Belt", 9))
+//inventory.add(new Item("Chip", 4, 10));
 
 function end_comp_sum(dict, item){
     let sname = item.name+"@T"+item.tier;
