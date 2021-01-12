@@ -1,33 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-    <script type="text/javascript" src="recipes.js"></script>
-    <script type="text/javascript" src="main.js"></script>
+	<meta charset="UTF-8">
+	<title>Factory cost calculator</title>
+	<link rel="stylesheet" href="style.css">
+	<script type="text/javascript" src="recipes.js"></script>
+	<script type="text/javascript" src="main.js"></script>
 </head>
 <body>
-<div>
-    <label for="tier">Tier</label>
+<div class="container">
+	<div id="recipes">
+		<div>
+			<label for="tier">Tier</label>
 
-    <select id="tier" name="tier" required>
-        <option value="">Select a tier</option>
-    </select>
+			<select id="tier" name="tier" required>
+				<option value="">Select a tier</option>
+			</select>
 
-</div>
-<div>
-    <label for="machine">Machine</label>
-    <select id="machine" name="machine" required>
-        <option value="">Select a machine</option>
-    </select>
-</div>
-<button onclick="calc_price()">Calculate</button>
-<h2>Recipe :</h2>
-<div id="results">
-</div>
-<h2>Summary</h2>
-<table id="summary">
+		</div>
+		<div>
+			<label for="machine">Machine</label>
+			<select id="machine" name="machine" required>
+				<option value="">Select a machine</option>
+			</select>
+		</div>
+		<button onclick="calc_price()">Calculate</button>
+		<h2>Recipe :</h2>
+		<div id="results">
+		</div>
+		<h2>Summary</h2>
+		<table id="summary">
 
-</table>
+		</table>
+	</div>
+	<div id="inventory_div">
+		<h2>Inventory</h2>
+		<table id="inventory_content">
+
+		</table>
+	</div>
+</div>
 </body>
 </html>

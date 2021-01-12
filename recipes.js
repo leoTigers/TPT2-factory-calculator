@@ -28,7 +28,7 @@ let recipes = {
         "count":2
       },
       {
-        "name":"Spin",
+        "name":"Wire",
         "tier":1,
         "count":1
       }],
@@ -98,7 +98,7 @@ let recipes = {
         "tier":0,
         "count":1
       },{
-        "name":"Circle",
+        "name":"Ring",
         "tier":0,
         "count":1
       }
@@ -183,7 +183,7 @@ let recipes = {
         "tier":0,
         "count":1
       },{
-        "name":"Spin",
+        "name":"Wire",
         "tier":0,
         "count":2
       }
@@ -200,12 +200,12 @@ let recipes = {
         "count":2
       },
       {
-        "name":"RefPlate",
+        "name":"CircuitPlate",
         "tier":1,
         "count":1
       },
       {
-        "name":"RefPlate",
+        "name":"CircuitPlate",
         "tier":2,
         "count":1
       }
@@ -234,7 +234,7 @@ let recipes = {
         "tier":0,
         "count":2
       },{
-        "name":"Circle",
+        "name":"Ring",
         "tier":0,
         "count":2
       },{
@@ -264,7 +264,7 @@ let recipes = {
         "tier":0,
         "count":2
       },{
-        "name":"Spin",
+        "name":"Wire",
         "tier":0,
         "count":1
       },{
@@ -312,7 +312,7 @@ let recipes = {
         "count":1
       },
       {
-        "name":"Spin",
+        "name":"Wire",
         "tier":0,
         "count":1
       }],
@@ -397,7 +397,7 @@ let recipes = {
         "tier":0,
         "count":1
       },{
-        "name":"Circle",
+        "name":"Ring",
         "tier":0,
         "count":2
       },
@@ -502,7 +502,7 @@ let recipes = {
         "tier":0,
         "count":1
       },{
-        "name":"Spin",
+        "name":"Wire",
         "tier":0,
         "count":2
       },{
@@ -523,12 +523,12 @@ let recipes = {
         "count":4
       },
       {
-        "name":"RefPlate",
+        "name":"CircuitPlate",
         "tier":3,
         "count":4
       },
       {
-        "name":"RefPlate",
+        "name":"CircuitPlate",
         "tier":4,
         "count":2
       },
@@ -562,7 +562,7 @@ let recipes = {
         "tier":0,
         "count":2
       },{
-        "name":"Circle",
+        "name":"Ring",
         "tier":0,
         "count":2
       },{
@@ -592,7 +592,7 @@ let recipes = {
         "tier":0,
         "count":2
       },{
-        "name":"Spin",
+        "name":"Wire",
         "tier":0,
         "count":1
       },{
@@ -640,7 +640,7 @@ let recipes = {
         "count":1
       },
       {
-        "name":"Spin",
+        "name":"Wire",
         "tier":0,
         "count":2
       }],
@@ -724,7 +724,7 @@ let recipes = {
         "tier":0,
         "count":1
       },{
-        "name":"Circle",
+        "name":"Ring",
         "tier":0,
         "count":2
       },{
@@ -824,7 +824,7 @@ let recipes = {
         "tier":0,
         "count":1
       },{
-        "name":"Spin",
+        "name":"Wire",
         "tier":0,
         "count":2
       },{
@@ -843,11 +843,11 @@ let recipes = {
         "tier":6,
         "count":4
       },{
-        "name":"RefPlate",
+        "name":"CircuitPlate",
         "tier":5,
         "count":4
       },{
-        "name":"RefPlate",
+        "name":"CircuitPlate",
         "tier":6,
         "count":2
       },{
@@ -879,7 +879,7 @@ let recipes = {
         "tier":0,
         "count":2
       },{
-        "name":"Circle",
+        "name":"Ring",
         "tier":0,
         "count":2
       },{
@@ -909,7 +909,7 @@ let recipes = {
         "tier":0,
         "count":2
       },{
-        "name":"Spin",
+        "name":"Wire",
         "tier":0,
         "count":1
       },{
@@ -954,7 +954,7 @@ let recipes = {
         "tier":3,
         "count":1
       },{
-        "name":"Spin",
+        "name":"Wire",
         "tier":0,
         "count":2
       }],
@@ -1040,7 +1040,7 @@ let recipes = {
         "tier":0,
         "count":1
       },{
-        "name":"Circle",
+        "name":"Ring",
         "tier":0,
         "count":2
       },{
@@ -1140,7 +1140,7 @@ let recipes = {
         "tier":0,
         "count":1
       },{
-        "name":"Spin",
+        "name":"Wire",
         "tier":0,
         "count":3
       },{
@@ -1159,11 +1159,11 @@ let recipes = {
         "tier":8,
         "count":2
       },{
-        "name":"RefPlate",
+        "name":"CircuitPlate",
         "tier":7,
         "count":6
       },{
-        "name":"RefPlate",
+        "name":"CircuitPlate",
         "tier":8,
         "count":6
       },{
@@ -1195,7 +1195,7 @@ let recipes = {
         "tier":0,
         "count":2
       },{
-        "name":"Circle",
+        "name":"Ring",
         "tier":0,
         "count":2
       },{
@@ -1225,7 +1225,7 @@ let recipes = {
         "tier":0,
         "count":2
       },{
-        "name":"Spin",
+        "name":"Wire",
         "tier":0,
         "count":1
       },{
@@ -1268,7 +1268,7 @@ let recipes = {
         "tier":4,
         "count":1
       },{
-        "name":"Spin",
+        "name":"Wire",
         "tier":0,
         "count":2
       },{
@@ -1358,7 +1358,7 @@ let recipes = {
         "tier":0,
         "count":2
       },{
-        "name":"Circle",
+        "name":"Ring",
         "tier":0,
         "count":3
       },{
@@ -1458,7 +1458,7 @@ let recipes = {
         "tier":0,
         "count":1
       },{
-        "name":"Spin",
+        "name":"Wire",
         "tier":0,
         "count":3
       },{
@@ -1477,11 +1477,11 @@ let recipes = {
         "tier":10,
         "count":2
       },{
-        "name":"RefPlate",
+        "name":"CircuitPlate",
         "tier":9,
         "count":8
       },{
-        "name":"RefPlate",
+        "name":"CircuitPlate",
         "tier":10,
         "count":8
       },{
@@ -1513,7 +1513,7 @@ let recipes = {
         "tier":0,
         "count":2
       },{
-        "name":"Circle",
+        "name":"Ring",
         "tier":0,
         "count":2
       },{
@@ -1543,7 +1543,7 @@ let recipes = {
         "tier":0,
         "count":2
       },{
-        "name":"Spin",
+        "name":"Wire",
         "tier":0,
         "count":1
       },{
@@ -1590,7 +1590,7 @@ let recipes = {
         "tier":5,
         "count":1
       },{
-        "name":"Spin",
+        "name":"Wire",
         "tier":0,
         "count":3
       },{
@@ -1680,7 +1680,7 @@ let recipes = {
         "tier":0,
         "count":2
       },{
-        "name":"Circle",
+        "name":"Ring",
         "tier":0,
         "count":3
       },{
@@ -1780,7 +1780,7 @@ let recipes = {
         "tier":0,
         "count":1
       },{
-        "name":"Spin",
+        "name":"Wire",
         "tier":0,
         "count":3
       },{
@@ -1812,7 +1812,7 @@ let recipes = {
         "tier":0,
         "count":2
       },{
-        "name":"Circle",
+        "name":"Ring",
         "tier":0,
         "count":2
       },{
@@ -1842,7 +1842,7 @@ let recipes = {
         "tier":0,
         "count":2
       },{
-        "name":"Spin",
+        "name":"Wire",
         "tier":0,
         "count":1
       },{
@@ -1889,7 +1889,7 @@ let recipes = {
         "tier":6,
         "count":1
       },{
-        "name":"Spin",
+        "name":"Wire",
         "tier":0,
         "count":3
       },{
@@ -1979,7 +1979,7 @@ let recipes = {
         "tier":0,
         "count":2
       },{
-        "name":"Circle",
+        "name":"Ring",
         "tier":0,
         "count":3
       },{
@@ -2083,7 +2083,7 @@ let recipes = {
         "tier":0,
         "count":1
       },{
-        "name":"Spin",
+        "name":"Wire",
         "tier":0,
         "count":3
       },{
@@ -2115,7 +2115,7 @@ let recipes = {
         "tier":0,
         "count":2
       },{
-        "name":"Circle",
+        "name":"Ring",
         "tier":0,
         "count":2
       },{
@@ -2145,7 +2145,7 @@ let recipes = {
         "tier":0,
         "count":2
       },{
-        "name":"Spin",
+        "name":"Wire",
         "tier":0,
         "count":1
       },{
@@ -2192,7 +2192,7 @@ let recipes = {
         "tier":7,
         "count":1
       },{
-        "name":"Spin",
+        "name":"Wire",
         "tier":0,
         "count":3
       },{
@@ -2282,7 +2282,7 @@ let recipes = {
         "tier":0,
         "count":2
       },{
-        "name":"Circle",
+        "name":"Ring",
         "tier":0,
         "count":3
       },{
@@ -2386,7 +2386,7 @@ let recipes = {
         "tier":0,
         "count":1
       },{
-        "name":"Spin",
+        "name":"Wire",
         "tier":0,
         "count":3
       },{
@@ -2418,7 +2418,7 @@ let recipes = {
         "tier":0,
         "count":2
       },{
-        "name":"Circle",
+        "name":"Ring",
         "tier":0,
         "count":2
       },{
@@ -2448,7 +2448,7 @@ let recipes = {
         "tier":0,
         "count":2
       },{
-        "name":"Spin",
+        "name":"Wire",
         "tier":0,
         "count":1
       },{
@@ -2495,7 +2495,7 @@ let recipes = {
         "tier":8,
         "count":1
       },{
-        "name":"Spin",
+        "name":"Wire",
         "tier":0,
         "count":3
       },{
@@ -2585,7 +2585,7 @@ let recipes = {
         "tier":0,
         "count":2
       },{
-        "name":"Circle",
+        "name":"Ring",
         "tier":0,
         "count":3
       },{
@@ -2689,7 +2689,7 @@ let recipes = {
         "tier":0,
         "count":1
       },{
-        "name":"Spin",
+        "name":"Wire",
         "tier":0,
         "count":4
       },{
@@ -2721,7 +2721,7 @@ let recipes = {
         "tier":0,
         "count":2
       },{
-        "name":"Circle",
+        "name":"Ring",
         "tier":0,
         "count":2
       },{
@@ -2751,7 +2751,7 @@ let recipes = {
         "tier":0,
         "count":2
       },{
-        "name":"Spin",
+        "name":"Wire",
         "tier":0,
         "count":1
       },{
@@ -2798,7 +2798,7 @@ let recipes = {
         "tier":9,
         "count":1
       },{
-        "name":"Spin",
+        "name":"Wire",
         "tier":0,
         "count":3
       },{
@@ -2888,7 +2888,7 @@ let recipes = {
         "tier":0,
         "count":4
       },{
-        "name":"Circle",
+        "name":"Ring",
         "tier":0,
         "count":5
       },{
@@ -2992,7 +2992,7 @@ let recipes = {
         "tier":0,
         "count":1
       },{
-        "name":"Spin",
+        "name":"Wire",
         "tier":0,
         "count":5
       },{
@@ -3024,7 +3024,7 @@ let recipes = {
         "tier":0,
         "count":2
       },{
-        "name":"Circle",
+        "name":"Ring",
         "tier":0,
         "count":2
       },{
@@ -3054,7 +3054,7 @@ let recipes = {
         "tier":0,
         "count":2
       },{
-        "name":"Spin",
+        "name":"Wire",
         "tier":0,
         "count":1
       },{
@@ -3143,7 +3143,7 @@ let recipes = {
   }
 }
 let parts = {
-  "Spin":[{
+  "Wire":[{
     "name":"Cable",
     "tier":0,
     "count":1
@@ -3163,12 +3163,12 @@ let parts = {
     "tier":0,
     "count":1
   }],
-  "AssCable":[{
+  "Circuits":[{
     "name":"Cable",
     "tier":0,
     "count":1
   }],
-  "RefPlate":[{
+  "CircuitPlate":[{
     "name":"Plate",
     "tier":0,
     "count":1
@@ -3188,7 +3188,7 @@ let parts = {
     "tier":0,
     "count":0.5
   }],
-  "Circle":[{
+  "Ring":[{
     "name":"Rod",
     "tier":0,
     "count":1
@@ -3204,7 +3204,7 @@ let config = {
   "machines":["Oven", "Assembly", "Refiner",
   "Crusher", "Cutter", "Presser", "Mixer",
   "Belt", "Shaper", "Boiler", "ExoticProducer"],
-  "parts":["Ingot", "AssCable", "Cable", "Spin", "RefPlate",
-  "Bolt", "Plate", "StackedPlate", "Rod", "Circle",
+  "parts":["Ingot", "Circuits", "Cable", "Wire", "CircuitPlate",
+  "Bolt", "Plate", "StackedPlate", "Rod", "Ring",
   "BoiledBlock", "Block", "Pump", "Motor"]
 }

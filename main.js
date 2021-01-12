@@ -15,6 +15,7 @@ function init() {
         option.text = config.machines[i];
         machine_select.appendChild(option);
     }
+    show_inventory();
 }
 
 document.addEventListener("DOMContentLoaded", function(event){
@@ -73,13 +74,14 @@ class Item{
     repr(){
         //if(this.componentList.length === 0)
         //    return;
-        let s = "--".repeat(this.depth) + " "+this.count + " "+ this.name+" T"
-            +this.tier+(this.owned>0?("    ("+this.owned+"from inventory)"):"")+"\n";
+        let s = (this.depth>0?"<ul class='nested'>":"")+"<li><span class='caret"+
+            (this.componentList.length===0?"-empty":"") +"'>"+this.count + " "+ this.name+" T"
+            +this.tier+(this.owned>0?("    ("+this.owned+"from inventory)"):"")+"</span>";
         //console.log(s)
         for(let i = 0 ; i < this.componentList.length ; i++) {
             s+=this.componentList[i].repr();
         }
-        return s
+        return s+"</li></ul>";
     }
     toString(){
         return this.name + " T" +this.tier;
@@ -135,6 +137,9 @@ class Inventory{
         }
         return 0;
     }
+    clear(){
+        this.items = [];
+    }
 }
 
 let inventory = new Inventory();
@@ -171,7 +176,7 @@ function calc_price(){
 
 
     let div = document.getElementById("results");
-    div.innerHTML = obj.repr().replaceAll("\n", "<br/>");
+    div.innerHTML = "<ul id='myUL'>"+obj.repr() + "</ul>";
 
     let table = document.getElementById("summary");
     table.innerHTML = "<tr>\n" +
@@ -198,4 +203,40 @@ function calc_price(){
     }
 
     console.log(total_cost);
+    let toggler = document.getElementsByClassName("caret");
+    let i;
+
+    for (i = 0; i < toggler.length; i++) {
+        toggler[i].addEventListener("click", function() {
+            this.parentElement.querySelectorAll(".nested").forEach(
+                el=>el.parentElement===this.parentElement?el.classList.toggle("active"):0);
+            this.classList.toggle("caret-down");
+        });
+    }
+    show_inventory();
+}
+
+function show_inventory(){
+    let table = document.getElementById("inventory_content");
+    table.innerHTML = "<tr>" +
+        "<th>Item</th>" +
+        "<th>Tier</th>" +
+        "<th>Amount</th>" +
+        "</tr>"
+    for(let i = 0 ; i < inventory.items.length ; i++) {
+        let tr = document.createElement("tr");
+
+        let td1 = document.createElement("td");
+        let td2 = document.createElement("td");
+        let td3 = document.createElement("td");
+
+        td1.innerHTML = inventory.items[i].name;
+        td2.innerHTML = inventory.items[i].tier;
+        td3.innerHTML = inventory.items[i].count;
+
+        tr.appendChild(td1);
+        tr.appendChild(td2);
+        tr.appendChild(td3);
+        table.appendChild(tr);
+    }
 }
