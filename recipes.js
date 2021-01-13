@@ -3192,7 +3192,7 @@ let recipes = {
       },{
         "name":"Chip",
         "tier":5,
-        "count":1
+        "count":10
       },
     ]
   }
