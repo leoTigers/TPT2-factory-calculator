@@ -3139,6 +3139,61 @@ let recipes = {
         "tier":5,
         "count":10
       },
+    ],
+    "GemProducer":[
+      {
+        "name":"BoiledBlock",
+        "tier":1,
+        "count":1
+      },{
+        "name":"BoiledBlock",
+        "tier":2,
+        "count":1
+      },{
+        "name":"BoiledBlock",
+        "tier":3,
+        "count":1
+      },{
+        "name":"BoiledBlock",
+        "tier":4,
+        "count":1
+      },{
+        "name":"BoiledBlock",
+        "tier":5,
+        "count":1
+      },{
+        "name":"BoiledBlock",
+        "tier":6,
+        "count":1
+      },{
+        "name":"BoiledBlock",
+        "tier":7,
+        "count":1
+      },{
+        "name":"BoiledBlock",
+        "tier":8,
+        "count":1
+      },{
+        "name":"BoiledBlock",
+        "tier":9,
+        "count":1
+      },{
+        "name":"BoiledBlock",
+        "tier":10,
+        "count":1
+      },{
+        "name":"InsulCable",
+        "tier":10,
+        "count":2
+      },{
+        "name":"Chip",
+        "tier":4,
+        "count":10
+      },{
+        "name":"Chip",
+        "tier":5,
+        "count":1
+      },
     ]
   }
 }
@@ -3203,7 +3258,7 @@ let config = {
   "tiers":10,
   "machines":["Oven", "Assembly", "Refiner",
   "Crusher", "Cutter", "Presser", "Mixer",
-  "Belt", "Shaper", "Boiler", "ExoticProducer"],
+  "Belt", "Shaper", "Boiler", "ExoticProducer","GemProducer"],
   "parts":["Ingot", "Circuits", "Cable", "Wire", "CircuitPlate",
   "Bolt", "Plate", "StackedPlate", "Rod", "Ring",
   "BoiledBlock", "Block", "Pump", "Motor"]
