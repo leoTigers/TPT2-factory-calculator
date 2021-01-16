@@ -3353,7 +3353,8 @@ let config = {
   "tiers":10,
   "machines":["Oven", "Assembly", "Refiner",
   "Crusher", "Cutter", "Presser", "Mixer",
-  "Belt", "Shaper", "Boiler", "ExoticProducer","GemProducer"],
+  "Belt", "Shaper", "Boiler", "ExoticProducer","GemProducer",
+  "WhiteProducer"],
   "parts":["Ingot", "Circuits", "Cable", "Wire", "CircuitPlate",
   "Bolt", "Plate", "StackedPlate", "Rod", "Ring",
   "BoiledBlock", "Block", "Pump", "Motor"]
