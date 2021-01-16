@@ -276,6 +276,17 @@ let recipes = {
         "tier":0,
         "count":1
       }],
+    "WhiteProducer":[
+      {
+        "name":"Plate",
+        "tier":2,
+        "count":2
+      },
+      {
+        "name":"Bolt",
+        "tier":2,
+        "count":2
+      },]
   },
   "2": {
     "Oven":[
@@ -604,6 +615,27 @@ let recipes = {
         "tier":0,
         "count":1
       }],
+    "WhiteProducer":[
+      {
+        "name":"CircuitPlate",
+        "tier":3,
+        "count":2
+      },
+      {
+        "name":"Bolt",
+        "tier":3,
+        "count":4
+      },
+      {
+        "name":"Chip",
+        "tier":1,
+        "count":1
+      },
+      {
+        "name":"WhiteProducer",
+        "tier":1,
+        "count":1
+      }]
   },
   "3": {
     "Oven":[
@@ -921,6 +953,27 @@ let recipes = {
         "tier":0,
         "count":1
       }],
+    "WhiteProducer":[
+      {
+        "name":"CircuitPlate",
+        "tier":5,
+        "count":2
+      },
+      {
+        "name":"Bolt",
+        "tier":5,
+        "count":4
+      },
+      {
+        "name":"Chip",
+        "tier":2,
+        "count":1
+      },
+      {
+        "name":"WhiteProducer",
+        "tier":2,
+        "count":1
+      }]
   },
   "4": {
     "Oven":[
@@ -1237,6 +1290,27 @@ let recipes = {
         "tier":0,
         "count":1
       }],
+    "WhiteProducer":[
+      {
+        "name":"CircuitPlate",
+        "tier":7,
+        "count":2
+      },
+      {
+        "name":"Bolt",
+        "tier":7,
+        "count":4
+      },
+      {
+        "name":"Chip",
+        "tier":3,
+        "count":1
+      },
+      {
+        "name":"WhiteProducer",
+        "tier":3,
+        "count":1
+      }]
   },
   "5": {
     "Oven":[
@@ -1555,6 +1629,27 @@ let recipes = {
         "tier":0,
         "count":1
       }],
+    "WhiteProducer":[
+      {
+        "name":"CircuitPlate",
+        "tier":9,
+        "count":6
+      },
+      {
+        "name":"Bolt",
+        "tier":9,
+        "count":4
+      },
+      {
+        "name":"Chip",
+        "tier":4,
+        "count":4
+      },
+      {
+        "name":"WhiteProducer",
+        "tier":4,
+        "count":1
+      }]
   },
   "6": {
     "Oven":[
