@@ -56,7 +56,7 @@ let recipes = {
         "tier":1,
         "count":1
       },{
-        "name":"StackedPlate",
+        "name":"DensePlate",
         "tier":1,
         "count":7
       }
@@ -82,7 +82,7 @@ let recipes = {
     ],
     "Refiner":[
       {
-        "name":"StackedPlate",
+        "name":"DensePlate",
         "tier":0,
         "count":4
       },{
@@ -105,11 +105,11 @@ let recipes = {
     ],
     "Assembly":[
       {
-        "name":"StackedPlate",
+        "name":"DensePlate",
         "tier":0,
         "count":6
       },{
-        "name":"Roll",
+        "name":"Pipe",
         "tier":0,
         "count":1
       },{
@@ -132,7 +132,7 @@ let recipes = {
         "tier":0,
         "count":2
       },{
-        "name":"Bolt",
+        "name":"Screw",
         "tier":0,
         "count":1
       },{
@@ -152,7 +152,7 @@ let recipes = {
         "count":2
       },
       {
-        "name":"StackedPlate",
+        "name":"DensePlate",
         "tier":0,
         "count":3
       },{
@@ -163,11 +163,11 @@ let recipes = {
     ],
     "Boiler":[
       {
-        "name":"StackedPlate",
+        "name":"DensePlate",
         "tier":0,
         "count":2
       },{
-        "name":"Bolt",
+        "name":"Screw",
         "tier":0,
         "count":2
       },{
@@ -190,12 +190,12 @@ let recipes = {
     ],
     "Chip":[
       {
-        "name":"Circuits",
+        "name":"CircuitWire",
         "tier":1,
         "count":2
       },
       {
-        "name":"Circuits",
+        "name":"CircuitWire",
         "tier":2,
         "count":2
       },
@@ -223,7 +223,7 @@ let recipes = {
       }],
     "Block":[
       {
-        "name":"StackedPlate",
+        "name":"DensePlate",
         "tier":0,
         "count":8
       }
@@ -246,7 +246,7 @@ let recipes = {
         "tier":0,
         "count":4
       }],
-    "StackedPlate":[
+    "DensePlate":[
       {
         "name":"Plate",
         "tier":1,
@@ -268,7 +268,7 @@ let recipes = {
         "tier":0,
         "count":1
       },{
-        "name":"Bolt",
+        "name":"Screw",
         "tier":0,
         "count":1
       },{
@@ -283,7 +283,7 @@ let recipes = {
         "count":2
       },
       {
-        "name":"Bolt",
+        "name":"Screw",
         "tier":2,
         "count":2
       },]
@@ -356,7 +356,7 @@ let recipes = {
         "tier":0,
         "count":1
       },{
-        "name":"StackedPlate",
+        "name":"DensePlate",
         "tier":0,
         "count":8
       },
@@ -368,7 +368,7 @@ let recipes = {
     ],
     "Mixer":[
       {
-        "name":"StackedPlate",
+        "name":"DensePlate",
         "tier":0,
         "count":4
       },{
@@ -392,7 +392,7 @@ let recipes = {
     ],
     "Refiner":[
       {
-        "name":"StackedPlate",
+        "name":"DensePlate",
         "tier":0,
         "count":4
       },{
@@ -420,11 +420,11 @@ let recipes = {
     ],
     "Assembly":[
       {
-        "name":"StackedPlate",
+        "name":"DensePlate",
         "tier":0,
         "count":5
       },{
-        "name":"Roll",
+        "name":"Pipe",
         "tier":0,
         "count":1
       },{
@@ -452,7 +452,7 @@ let recipes = {
         "tier":0,
         "count":2
       },{
-        "name":"Bolt",
+        "name":"Screw",
         "tier":0,
         "count":2
       },{
@@ -477,7 +477,7 @@ let recipes = {
         "count":2
       },
       {
-        "name":"StackedPlate",
+        "name":"DensePlate",
         "tier":0,
         "count":3
       },{
@@ -493,11 +493,11 @@ let recipes = {
     ],
     "Boiler":[
       {
-        "name":"StackedPlate",
+        "name":"DensePlate",
         "tier":0,
         "count":2
       },{
-        "name":"Bolt",
+        "name":"Screw",
         "tier":0,
         "count":2
       },{
@@ -524,12 +524,12 @@ let recipes = {
     ],
     "Chip":[
       {
-        "name":"Circuits",
+        "name":"CircuitWire",
         "tier":3,
         "count":2
       },
       {
-        "name":"Circuits",
+        "name":"CircuitWire",
         "tier":4,
         "count":4
       },
@@ -562,7 +562,7 @@ let recipes = {
       }],
     "Block":[
       {
-        "name":"StackedPlate",
+        "name":"DensePlate",
         "tier":0,
         "count":8
       }
@@ -585,7 +585,7 @@ let recipes = {
         "tier":0,
         "count":4
       }],
-    "StackedPlate":[
+    "DensePlate":[
       {
         "name":"Plate",
         "tier":0,
@@ -607,7 +607,7 @@ let recipes = {
         "tier":0,
         "count":1
       },{
-        "name":"Bolt",
+        "name":"Screw",
         "tier":0,
         "count":1
       },{
@@ -622,7 +622,7 @@ let recipes = {
         "count":2
       },
       {
-        "name":"Bolt",
+        "name":"Screw",
         "tier":3,
         "count":4
       },
@@ -705,7 +705,7 @@ let recipes = {
         "tier":0,
         "count":1
       },{
-        "name":"StackedPlate",
+        "name":"DensePlate",
         "tier":0,
         "count":8
       },
@@ -717,7 +717,7 @@ let recipes = {
     ],
     "Mixer":[
       {
-        "name":"StackedPlate",
+        "name":"DensePlate",
         "tier":0,
         "count":4
       },{
@@ -740,7 +740,7 @@ let recipes = {
     ],
     "Refiner":[
       {
-        "name":"StackedPlate",
+        "name":"DensePlate",
         "tier":0,
         "count":4
       },{
@@ -767,11 +767,11 @@ let recipes = {
     ],
     "Assembly":[
       {
-        "name":"StackedPlate",
+        "name":"DensePlate",
         "tier":0,
         "count":8
       },{
-        "name":"Roll",
+        "name":"Pipe",
         "tier":0,
         "count":1
       },{
@@ -798,7 +798,7 @@ let recipes = {
         "tier":0,
         "count":2
       },{
-        "name":"Bolt",
+        "name":"Screw",
         "tier":0,
         "count":2
       },{
@@ -821,7 +821,7 @@ let recipes = {
         "tier":0,
         "count":2
       },{
-        "name":"StackedPlate",
+        "name":"DensePlate",
         "tier":0,
         "count":3
       },{
@@ -836,11 +836,11 @@ let recipes = {
     ],
     "Boiler":[
       {
-        "name":"StackedPlate",
+        "name":"DensePlate",
         "tier":0,
         "count":2
       },{
-        "name":"Bolt",
+        "name":"Screw",
         "tier":0,
         "count":2
       },{
@@ -867,11 +867,11 @@ let recipes = {
     ],
     "Chip":[
       {
-        "name":"Circuits",
+        "name":"CircuitWire",
         "tier":5,
         "count":2
       },{
-        "name":"Circuits",
+        "name":"CircuitWire",
         "tier":6,
         "count":4
       },{
@@ -900,7 +900,7 @@ let recipes = {
       }],
     "Block":[
       {
-        "name":"StackedPlate",
+        "name":"DensePlate",
         "tier":0,
         "count":8
       }
@@ -923,7 +923,7 @@ let recipes = {
         "tier":0,
         "count":4
       }],
-    "StackedPlate":[
+    "DensePlate":[
       {
         "name":"Plate",
         "tier":0,
@@ -945,7 +945,7 @@ let recipes = {
         "tier":0,
         "count":1
       },{
-        "name":"Bolt",
+        "name":"Screw",
         "tier":0,
         "count":1
       },{
@@ -960,7 +960,7 @@ let recipes = {
         "count":2
       },
       {
-        "name":"Bolt",
+        "name":"Screw",
         "tier":5,
         "count":4
       },
@@ -1043,7 +1043,7 @@ let recipes = {
         "tier":0,
         "count":1
       },{
-        "name":"StackedPlate",
+        "name":"DensePlate",
         "tier":0,
         "count":8
       },{
@@ -1054,7 +1054,7 @@ let recipes = {
     ],
     "Mixer":[
       {
-        "name":"StackedPlate",
+        "name":"DensePlate",
         "tier":0,
         "count":5
       },{
@@ -1077,7 +1077,7 @@ let recipes = {
     ],
     "Refiner":[
       {
-        "name":"StackedPlate",
+        "name":"DensePlate",
         "tier":0,
         "count":4
       },{
@@ -1104,11 +1104,11 @@ let recipes = {
     ],
     "Assembly":[
       {
-        "name":"StackedPlate",
+        "name":"DensePlate",
         "tier":0,
         "count":8
       },{
-        "name":"Roll",
+        "name":"Pipe",
         "tier":0,
         "count":1
       },{
@@ -1135,7 +1135,7 @@ let recipes = {
         "tier":0,
         "count":2
       },{
-        "name":"Bolt",
+        "name":"Screw",
         "tier":0,
         "count":2
       },{
@@ -1158,7 +1158,7 @@ let recipes = {
         "tier":0,
         "count":2
       },{
-        "name":"StackedPlate",
+        "name":"DensePlate",
         "tier":0,
         "count":3
       },{
@@ -1173,11 +1173,11 @@ let recipes = {
     ],
     "Boiler":[
       {
-        "name":"StackedPlate",
+        "name":"DensePlate",
         "tier":0,
         "count":3
       },{
-        "name":"Bolt",
+        "name":"Screw",
         "tier":0,
         "count":2
       },{
@@ -1204,11 +1204,11 @@ let recipes = {
     ],
     "Chip":[
       {
-        "name":"Circuits",
+        "name":"CircuitWire",
         "tier":7,
         "count":2
       },{
-        "name":"Circuits",
+        "name":"CircuitWire",
         "tier":8,
         "count":2
       },{
@@ -1237,7 +1237,7 @@ let recipes = {
       }],
     "Block":[
       {
-        "name":"StackedPlate",
+        "name":"DensePlate",
         "tier":0,
         "count":8
       }
@@ -1260,7 +1260,7 @@ let recipes = {
         "tier":0,
         "count":4
       }],
-    "StackedPlate":[
+    "DensePlate":[
       {
         "name":"Plate",
         "tier":0,
@@ -1282,7 +1282,7 @@ let recipes = {
         "tier":0,
         "count":1
       },{
-        "name":"Bolt",
+        "name":"Screw",
         "tier":0,
         "count":1
       },{
@@ -1297,7 +1297,7 @@ let recipes = {
         "count":2
       },
       {
-        "name":"Bolt",
+        "name":"Screw",
         "tier":7,
         "count":4
       },
@@ -1382,7 +1382,7 @@ let recipes = {
         "tier":0,
         "count":1
       },{
-        "name":"StackedPlate",
+        "name":"DensePlate",
         "tier":0,
         "count":8
       },{
@@ -1393,7 +1393,7 @@ let recipes = {
     ],
     "Mixer":[
       {
-        "name":"StackedPlate",
+        "name":"DensePlate",
         "tier":0,
         "count":5
       },{
@@ -1416,7 +1416,7 @@ let recipes = {
     ],
     "Refiner":[
       {
-        "name":"StackedPlate",
+        "name":"DensePlate",
         "tier":0,
         "count":4
       },{
@@ -1443,11 +1443,11 @@ let recipes = {
     ],
     "Assembly":[
       {
-        "name":"StackedPlate",
+        "name":"DensePlate",
         "tier":0,
         "count":8
       },{
-        "name":"Roll",
+        "name":"Pipe",
         "tier":0,
         "count":1
       },{
@@ -1474,7 +1474,7 @@ let recipes = {
         "tier":0,
         "count":2
       },{
-        "name":"Bolt",
+        "name":"Screw",
         "tier":0,
         "count":2
       },{
@@ -1497,7 +1497,7 @@ let recipes = {
         "tier":0,
         "count":2
       },{
-        "name":"StackedPlate",
+        "name":"DensePlate",
         "tier":0,
         "count":3
       },{
@@ -1512,11 +1512,11 @@ let recipes = {
     ],
     "Boiler":[
       {
-        "name":"StackedPlate",
+        "name":"DensePlate",
         "tier":0,
         "count":3
       },{
-        "name":"Bolt",
+        "name":"Screw",
         "tier":0,
         "count":2
       },{
@@ -1543,11 +1543,11 @@ let recipes = {
     ],
     "Chip":[
       {
-        "name":"Circuits",
+        "name":"CircuitWire",
         "tier":9,
         "count":2
       },{
-        "name":"Circuits",
+        "name":"CircuitWire",
         "tier":10,
         "count":2
       },{
@@ -1576,7 +1576,7 @@ let recipes = {
       }],
     "Block":[
       {
-        "name":"StackedPlate",
+        "name":"DensePlate",
         "tier":0,
         "count":8
       }
@@ -1599,7 +1599,7 @@ let recipes = {
         "tier":0,
         "count":4
       }],
-    "StackedPlate":[
+    "DensePlate":[
       {
         "name":"Plate",
         "tier":0,
@@ -1621,7 +1621,7 @@ let recipes = {
         "tier":0,
         "count":1
       },{
-        "name":"Bolt",
+        "name":"Screw",
         "tier":0,
         "count":1
       },{
@@ -1636,7 +1636,7 @@ let recipes = {
         "count":6
       },
       {
-        "name":"Bolt",
+        "name":"Screw",
         "tier":9,
         "count":4
       },
@@ -1725,7 +1725,7 @@ let recipes = {
         "tier":0,
         "count":1
       },{
-        "name":"StackedPlate",
+        "name":"DensePlate",
         "tier":0,
         "count":8
       },{
@@ -1736,7 +1736,7 @@ let recipes = {
     ],
     "Mixer":[
       {
-        "name":"StackedPlate",
+        "name":"DensePlate",
         "tier":0,
         "count":6
       },{
@@ -1759,7 +1759,7 @@ let recipes = {
     ],
     "Refiner":[
       {
-        "name":"StackedPlate",
+        "name":"DensePlate",
         "tier":0,
         "count":4
       },{
@@ -1786,11 +1786,11 @@ let recipes = {
     ],
     "Assembly":[
       {
-        "name":"StackedPlate",
+        "name":"DensePlate",
         "tier":0,
         "count":10
       },{
-        "name":"Roll",
+        "name":"Pipe",
         "tier":0,
         "count":2
       },{
@@ -1817,7 +1817,7 @@ let recipes = {
         "tier":0,
         "count":2
       },{
-        "name":"Bolt",
+        "name":"Screw",
         "tier":0,
         "count":3
       },{
@@ -1840,7 +1840,7 @@ let recipes = {
         "tier":0,
         "count":2
       },{
-        "name":"StackedPlate",
+        "name":"DensePlate",
         "tier":0,
         "count":4
       },{
@@ -1855,11 +1855,11 @@ let recipes = {
     ],
     "Boiler":[
       {
-        "name":"StackedPlate",
+        "name":"DensePlate",
         "tier":0,
         "count":3
       },{
-        "name":"Bolt",
+        "name":"Screw",
         "tier":0,
         "count":2
       },{
@@ -1896,7 +1896,7 @@ let recipes = {
       }],
     "Block":[
       {
-        "name":"StackedPlate",
+        "name":"DensePlate",
         "tier":0,
         "count":8
       }
@@ -1919,7 +1919,7 @@ let recipes = {
         "tier":0,
         "count":4
       }],
-    "StackedPlate":[
+    "DensePlate":[
       {
         "name":"Plate",
         "tier":0,
@@ -1941,7 +1941,7 @@ let recipes = {
         "tier":0,
         "count":1
       },{
-        "name":"Bolt",
+        "name":"Screw",
         "tier":0,
         "count":1
       },{
@@ -2024,7 +2024,7 @@ let recipes = {
         "tier":0,
         "count":1
       },{
-        "name":"StackedPlate",
+        "name":"DensePlate",
         "tier":0,
         "count":8
       },{
@@ -2035,7 +2035,7 @@ let recipes = {
     ],
     "Mixer":[
       {
-        "name":"StackedPlate",
+        "name":"DensePlate",
         "tier":0,
         "count":6
       },{
@@ -2058,7 +2058,7 @@ let recipes = {
     ],
     "Refiner":[
       {
-        "name":"StackedPlate",
+        "name":"DensePlate",
         "tier":0,
         "count":4
       },{
@@ -2089,11 +2089,11 @@ let recipes = {
     ],
     "Assembly":[
       {
-        "name":"StackedPlate",
+        "name":"DensePlate",
         "tier":0,
         "count":10
       },{
-        "name":"Roll",
+        "name":"Pipe",
         "tier":0,
         "count":2
       },{
@@ -2120,7 +2120,7 @@ let recipes = {
         "tier":0,
         "count":2
       },{
-        "name":"Bolt",
+        "name":"Screw",
         "tier":0,
         "count":3
       },{
@@ -2143,7 +2143,7 @@ let recipes = {
         "tier":0,
         "count":2
       },{
-        "name":"StackedPlate",
+        "name":"DensePlate",
         "tier":0,
         "count":4
       },{
@@ -2158,11 +2158,11 @@ let recipes = {
     ],
     "Boiler":[
       {
-        "name":"StackedPlate",
+        "name":"DensePlate",
         "tier":0,
         "count":3
       },{
-        "name":"Bolt",
+        "name":"Screw",
         "tier":0,
         "count":2
       },{
@@ -2199,7 +2199,7 @@ let recipes = {
       }],
     "Block":[
       {
-        "name":"StackedPlate",
+        "name":"DensePlate",
         "tier":0,
         "count":12
       }
@@ -2222,7 +2222,7 @@ let recipes = {
         "tier":0,
         "count":4
       }],
-    "StackedPlate":[
+    "DensePlate":[
       {
         "name":"Plate",
         "tier":0,
@@ -2244,7 +2244,7 @@ let recipes = {
         "tier":0,
         "count":1
       },{
-        "name":"Bolt",
+        "name":"Screw",
         "tier":0,
         "count":1
       },{
@@ -2327,7 +2327,7 @@ let recipes = {
         "tier":0,
         "count":2
       },{
-        "name":"StackedPlate",
+        "name":"DensePlate",
         "tier":0,
         "count":9
       },{
@@ -2338,7 +2338,7 @@ let recipes = {
     ],
     "Mixer":[
       {
-        "name":"StackedPlate",
+        "name":"DensePlate",
         "tier":0,
         "count":6
       },{
@@ -2361,7 +2361,7 @@ let recipes = {
     ],
     "Refiner":[
       {
-        "name":"StackedPlate",
+        "name":"DensePlate",
         "tier":0,
         "count":4
       },{
@@ -2392,11 +2392,11 @@ let recipes = {
     ],
     "Assembly":[
       {
-        "name":"StackedPlate",
+        "name":"DensePlate",
         "tier":0,
         "count":10
       },{
-        "name":"Roll",
+        "name":"Pipe",
         "tier":0,
         "count":2
       },{
@@ -2423,7 +2423,7 @@ let recipes = {
         "tier":0,
         "count":2
       },{
-        "name":"Bolt",
+        "name":"Screw",
         "tier":0,
         "count":3
       },{
@@ -2442,7 +2442,7 @@ let recipes = {
     ],
     "Cutter":[
       {
-        "name":"StackedPlate",
+        "name":"DensePlate",
         "tier":0,
         "count":2
       },{
@@ -2461,11 +2461,11 @@ let recipes = {
     ],
     "Boiler":[
       {
-        "name":"StackedPlate",
+        "name":"DensePlate",
         "tier":0,
         "count":3
       },{
-        "name":"Bolt",
+        "name":"Screw",
         "tier":0,
         "count":2
       },{
@@ -2502,7 +2502,7 @@ let recipes = {
       }],
     "Block":[
       {
-        "name":"StackedPlate",
+        "name":"DensePlate",
         "tier":0,
         "count":12
       }
@@ -2525,7 +2525,7 @@ let recipes = {
         "tier":0,
         "count":4
       }],
-    "StackedPlate":[
+    "DensePlate":[
       {
         "name":"Plate",
         "tier":0,
@@ -2547,7 +2547,7 @@ let recipes = {
         "tier":0,
         "count":1
       },{
-        "name":"Bolt",
+        "name":"Screw",
         "tier":0,
         "count":1
       },{
@@ -2630,7 +2630,7 @@ let recipes = {
         "tier":0,
         "count":2
       },{
-        "name":"StackedPlate",
+        "name":"DensePlate",
         "tier":0,
         "count":9
       },{
@@ -2641,7 +2641,7 @@ let recipes = {
     ],
     "Mixer":[
       {
-        "name":"StackedPlate",
+        "name":"DensePlate",
         "tier":0,
         "count":6
       },{
@@ -2664,7 +2664,7 @@ let recipes = {
     ],
     "Refiner":[
       {
-        "name":"StackedPlate",
+        "name":"DensePlate",
         "tier":0,
         "count":4
       },{
@@ -2695,11 +2695,11 @@ let recipes = {
     ],
     "Assembly":[
       {
-        "name":"StackedPlate",
+        "name":"DensePlate",
         "tier":0,
         "count":12
       },{
-        "name":"Roll",
+        "name":"Pipe",
         "tier":0,
         "count":2
       },{
@@ -2726,7 +2726,7 @@ let recipes = {
         "tier":0,
         "count":2
       },{
-        "name":"Bolt",
+        "name":"Screw",
         "tier":0,
         "count":3
       },{
@@ -2745,7 +2745,7 @@ let recipes = {
     ],
     "Cutter":[
       {
-        "name":"StackedPlate",
+        "name":"DensePlate",
         "tier":0,
         "count":2
       },{
@@ -2764,11 +2764,11 @@ let recipes = {
     ],
     "Boiler":[
       {
-        "name":"StackedPlate",
+        "name":"DensePlate",
         "tier":0,
         "count":4
       },{
-        "name":"Bolt",
+        "name":"Screw",
         "tier":0,
         "count":2
       },{
@@ -2805,7 +2805,7 @@ let recipes = {
       }],
     "Block":[
       {
-        "name":"StackedPlate",
+        "name":"DensePlate",
         "tier":0,
         "count":12
       }
@@ -2828,7 +2828,7 @@ let recipes = {
         "tier":0,
         "count":4
       }],
-    "StackedPlate":[
+    "DensePlate":[
       {
         "name":"Plate",
         "tier":0,
@@ -2850,7 +2850,7 @@ let recipes = {
         "tier":0,
         "count":1
       },{
-        "name":"Bolt",
+        "name":"Screw",
         "tier":0,
         "count":1
       },{
@@ -2933,7 +2933,7 @@ let recipes = {
         "tier":0,
         "count":2
       },{
-        "name":"StackedPlate",
+        "name":"DensePlate",
         "tier":0,
         "count":9
       },{
@@ -2944,7 +2944,7 @@ let recipes = {
     ],
     "Mixer":[
       {
-        "name":"StackedPlate",
+        "name":"DensePlate",
         "tier":0,
         "count":6
       },{
@@ -2967,7 +2967,7 @@ let recipes = {
     ],
     "Refiner":[
       {
-        "name":"StackedPlate",
+        "name":"DensePlate",
         "tier":0,
         "count":4
       },{
@@ -2998,11 +2998,11 @@ let recipes = {
     ],
     "Assembly":[
       {
-        "name":"StackedPlate",
+        "name":"DensePlate",
         "tier":0,
         "count":12
       },{
-        "name":"Roll",
+        "name":"Pipe",
         "tier":0,
         "count":2
       },{
@@ -3021,7 +3021,7 @@ let recipes = {
     ],
     "Shaper":[
       {
-        "name":"StackedPlate",
+        "name":"DensePlate",
         "tier":0,
         "count":4
       },{
@@ -3029,7 +3029,7 @@ let recipes = {
         "tier":0,
         "count":2
       },{
-        "name":"Bolt",
+        "name":"Screw",
         "tier":0,
         "count":3
       },{
@@ -3048,7 +3048,7 @@ let recipes = {
     ],
     "Cutter":[
       {
-        "name":"StackedPlate",
+        "name":"DensePlate",
         "tier":0,
         "count":2
       },{
@@ -3067,11 +3067,11 @@ let recipes = {
     ],
     "Boiler":[
       {
-        "name":"StackedPlate",
+        "name":"DensePlate",
         "tier":0,
         "count":5
       },{
-        "name":"Bolt",
+        "name":"Screw",
         "tier":0,
         "count":2
       },{
@@ -3108,7 +3108,7 @@ let recipes = {
       }],
     "Block":[
       {
-        "name":"StackedPlate",
+        "name":"DensePlate",
         "tier":0,
         "count":12
       }
@@ -3131,7 +3131,7 @@ let recipes = {
         "tier":0,
         "count":4
       }],
-    "StackedPlate":[
+    "DensePlate":[
       {
         "name":"Plate",
         "tier":0,
@@ -3153,7 +3153,7 @@ let recipes = {
         "tier":0,
         "count":1
       },{
-        "name":"Bolt",
+        "name":"Screw",
         "tier":0,
         "count":1
       },{
@@ -3313,7 +3313,7 @@ let parts = {
     "tier":0,
     "count":1
   }],
-  "Circuits":[{
+  "CircuitWire":[{
     "name":"Cable",
     "tier":0,
     "count":1
@@ -3323,12 +3323,12 @@ let parts = {
     "tier":0,
     "count":1
   }],
-  "Bolt":[{
+  "Screw":[{
     "name":"Rod",
     "tier":0,
     "count":0.25
   }],
-  "StackedPlate":[{
+  "DensePlate":[{
     "name":"Plate",
     "tier":0,
     "count":9
@@ -3355,7 +3355,7 @@ let config = {
   "Crusher", "Cutter", "Presser", "Mixer",
   "Belt", "Shaper", "Boiler", "ExoticProducer","GemProducer",
   "WhiteProducer"],
-  "parts":["Ingot", "Circuits", "Cable", "Wire", "CircuitPlate",
-  "Bolt", "Plate", "StackedPlate", "Rod", "Ring",
+  "parts":["Ingot", "CircuitWire", "Cable", "Wire", "CircuitPlate",
+  "Screw", "Plate", "DensePlate", "Rod", "Ring",
   "BoiledBlock", "Block", "Pump", "Motor"]
 }
