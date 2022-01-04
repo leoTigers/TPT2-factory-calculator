@@ -63,7 +63,7 @@ let recipes = {
     ],
     "Mixer":[
       {
-        "name":"Plate",
+        "name":"DensePlate",
         "tier":0,
         "count":5
       },{
